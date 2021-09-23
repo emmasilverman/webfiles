@@ -6,6 +6,15 @@ h1{
 }
 h2{
   font-size:25px;
+  font-family: headline-gothic-atf-rough-n2, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h3{
+  font-size:15px
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 #footer{
   background-color: black;

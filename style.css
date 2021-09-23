@@ -48,6 +48,13 @@ body{
   color: white;
 }
 
+a{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 50px;
+}
+
 style{
   font-family: ff-nuvo-mono-web-pro, sans-serif;
   font-weight: 400;

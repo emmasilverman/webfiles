@@ -1,0 +1,46 @@
+<style>
+  h1{
+    font-size: 50px;
+  }
+
+  body{
+    font-family:helvetica;
+    background-color: black;
+    color:white;
+  }
+
+  #top {
+    background-color: black;
+    font-famiy: helvetica;
+  }
+
+  #top h1{
+    color:blue;
+    border: solid:.5px white;
+    border-radius: 10px;
+  }
+  ul {
+    color:red;
+    font-family:arial;
+    font-weight: 500;
+  }
+
+  img {
+    width:20vw;
+    margin: 10px;
+  }
+
+  button{
+    background-color:blue;
+  }
+  #second{
+    background-color:red;
+  }
+
+  form{
+    margin-left: 20px;
+    font-size:10vw;
+  }
+
+
+</style>

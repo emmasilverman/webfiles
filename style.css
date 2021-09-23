@@ -33,11 +33,9 @@ h4{
   font-family: ff-nuvo-mono-web-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: black;
   margin-left: 50px;
 }
 #pagetop{
-  background-color:black;
   font-family: ff-nuvo-mono-web-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -45,7 +43,7 @@ h4{
 }
 body{
   background-color: #FAF0DD;
-  color: white;
+  color: black;
 }
 
 a{

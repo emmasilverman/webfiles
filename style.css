@@ -3,23 +3,23 @@ h1{
   font-family: headline-gothic-atf-rough-n2, sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 20px;
+  margin: 20px;
 }
 h2{
   font-size:50px;
   font-family: headline-gothic-atf-rough-n2, sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 20px;
+  margin: 20px;
 }
 h3{
   font-size:15px
   font-family: ff-nuvo-mono-web-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
-  margin-left: 20px;
+  margin: 20px;
 }
-img{ margin-left: 20px;
+img{ margin: 20px;
 
 }
 h4{
@@ -27,21 +27,21 @@ h4{
   font-family: ff-nuvo-mono-web-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 20px;
+  margin: 20px;
 }
 #footer{
   font-family: ff-nuvo-mono-web-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: black;
-  margin left: 30px;
+  margin: 30px;
 }
 #pagetop{
   background-color:black;
   font-family: ff-nuvo-mono-web-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 30px;
+  margin: 30px;
 }
 body{
   background-color: black;

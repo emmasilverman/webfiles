@@ -23,10 +23,16 @@ p{
   font-style: normal;
 }
 #footer{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: black;
 }
 #pagetop{
   background-color:black;
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 body{
   font-family:ff-nuvo-mono-web-pro, sans-serif;

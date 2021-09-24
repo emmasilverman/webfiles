@@ -6,12 +6,10 @@ h1{
   color: black;
   margin-block-start: 0em;
   margin-block-end: 0em;
-  margin-right:50px;
-  margin-left:50px;
+  margin: auto;
 }
 img{
-  margin-right:100px;
-  margin-left: 100px;
+  margin: auto;
 }
 h2{
   font-size:50px;

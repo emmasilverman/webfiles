@@ -42,6 +42,8 @@ h4{
   font-style: bold;
   margin-left: 250px;
   color: #9837F0;
+  margin-block-start:10em;
+  margin-block-end:10em;
 }
 #pagetop{
   font-family: ff-nuvo-mono-web-pro, sans-serif;
@@ -65,7 +67,7 @@ h4{
   font-style: normal;
   margin-left: 250px;
   color: black;
-  margin-block-start: 10px;
+  margin-block-start: 10em;
 }
 
 body{

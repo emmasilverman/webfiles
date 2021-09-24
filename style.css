@@ -51,12 +51,12 @@ h4{
   color: #9837F0;
 }
 #aboutme{
-  font-size:10px
   font-family: ff-nuvo-mono-web-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
   margin-left: 50px;
   color: black;
+  font-size:10px
 }
 body{
   background-color: #FAF0DD;
@@ -96,6 +96,6 @@ button{
   font-size:10px;
   font-weight: 400;
   font-style: normal;
-  margin-left: 100px;
+  margin-left: 50px;
   color: black;
 }

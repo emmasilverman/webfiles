@@ -42,8 +42,8 @@ h4{
   font-style: bold;
   margin-left: 250px;
   color: #9837F0;
-  margin-block-start:10em;
-  margin-block-end:10em;
+  margin-block-start:1em;
+  margin-block-end:1em;
 }
 #pagetop{
   font-family: ff-nuvo-mono-web-pro, sans-serif;
@@ -51,8 +51,8 @@ h4{
   font-style: bold;
   margin-left: 250px;
   color: #9837F0;
-  margin-block-start:10em;
-  margin-block-end:10em;
+  margin-block-start:1em;
+  margin-block-end:1em;
 }
 #aboutme{
   font-family: ff-nuvo-mono-web-pro, sans-serif;
@@ -69,7 +69,7 @@ h4{
   font-style: normal;
   margin-left: 250px;
   color: black;
-  margin-block-start: 10em;
+  margin-block-start: 1em;
 }
 
 body{

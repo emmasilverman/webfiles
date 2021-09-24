@@ -19,7 +19,7 @@ h2{
 }
 h3{
   font-size:15px
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-family: ff-nuvo-mono-web-pro, sans-serfif;
   font-weight: 700;
   font-style: normal;
   margin-left: 50px;
@@ -89,5 +89,13 @@ style{
 }
 
 button{
+  color: black;
+}
+
+#work{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 100px;
   color: black;
 }

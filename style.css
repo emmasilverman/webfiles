@@ -51,6 +51,8 @@ h4{
   font-style: bold;
   margin-left: 250px;
   color: #9837F0;
+  margin-block-start:10em;
+  margin-block-end:10em;
 }
 #aboutme{
   font-family: ff-nuvo-mono-web-pro, sans-serif;

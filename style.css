@@ -1,10 +1,15 @@
 body{
-
+  font-family: playfair-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #FFF5D1;
+  color: #212625;
+  margin: auto;
 }
 
 h1{
   font-family: playfair-display, serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 100px;
+  font-size: 50px;
 }

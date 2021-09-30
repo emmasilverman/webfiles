@@ -1,46 +1,139 @@
-<style>
-  h1{
-    font-size: 50px;
-  }
+h1{
+  font-size:100px;
+  font-family: headline-gothic-atf-rough-n2, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-right:500px;
+}
+img{
+  margin: auto;
+}
+h2{
+  font-size:50px;
+  font-family: headline-gothic-atf-rough-n2, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 50px;
+  color: black;
+}
+h3{
+  font-family: ff-nuvo-mono-web-pro, sans-serfif;
+  font-size:20px
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 50px;
+  color: black;
+}
 
-  body{
-    font-family:helvetica;
-    background-color: black;
-    color:white;
-  }
+h4{
+  font-size:10px
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 50px;
+  color: black;
+}
+#footer{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  margin-left: 500px;
+  color: #9837F0;
+  margin-block-start:1em;
+  margin-block-end:1em;
+}
+#pagetop{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  margin-left: 500px;
+  color: #9837F0;
+  margin-block-start:1em;
+  margin-block-end:1em;
+}
+#aboutme{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: black;
+  font-size:20px
+}
+#enclyopedia{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 400px;
+  color: black;
+  margin-block-start: 1em;
+}
+#contact{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 50px;
+  margin-right:50px;
+  color: black;
+  font-size:20px
+}
 
-  #top {
-    background-color: black;
-    font-famiy: helvetica;
-  }
+body{
+  background-color: #FAF0DD;
+  color: black;
+  margin-left: 50px
+}
 
-  #top h1{
-    color:blue;
-    border: solid:.5px white;
-    border-radius: 10px;
-  }
-  ul {
-    color:red;
-    font-family:arial;
-    font-weight: 500;
-  }
+a{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 50px;
+  color: #9837F0;
+}
+p{
+font-family: ff-nuvo-mono-web-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-left: 50px;
+color: black
+}
 
-  img {
-    width:20vw;
-    margin: 10px;
-  }
+style{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 50px;
+  color: black;
+}
 
-  button{
-    background-color:blue;
-  }
-  #second{
-    background-color:red;
-  }
+button{
+  color: black;
+}
 
-  form{
-    margin-left: 20px;
-    font-size:10vw;
+#work{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-size:20px;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: black;
+}
+
+ul{
+  margin-left:75px;
+}
+
+form{
+  font-family: ff-nuvo-mono-web-pro, sans-serif;
+  font-size:20px;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 200px;
+  margin-right:75px;
+  color: black;
   }
-
-
-</style>

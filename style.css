@@ -4,7 +4,6 @@ body{
   font-style: normal;
   background-color: #FFF5D1;
   color: #212625;
-  margin: auto;
 }
 
 h1{
@@ -17,7 +16,8 @@ h1{
 
 button{
   border: solid #877387 1px;
-  background-color:
+  background-color: #FFF5D1;
+  color:#877387;
 }
 
 button:hover{

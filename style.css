@@ -8,7 +8,6 @@ body{
   color: #212625;
   text-align: center;
 }
-
 h1{
   font-family: 'Playfair Display SC', serif;
   font-size: 50px;
@@ -16,7 +15,6 @@ h1{
   margin-block-start: 1em;
   margin-block-end: 1em;
 }
-
 h2{
   font-family: playfair-display, serif;
   font-weight: 900;
@@ -26,7 +24,6 @@ h2{
   margin-block-start: 2em;
   margin-block-end: -1.5em;
 }
-
 p{
   margin: 100px;
   margin-block-start: 2em;
@@ -37,7 +34,6 @@ hr{
   border-radius: 10px;
   decoration: none;
 }
-
 a{
   text-decoration: none;
   font-family: playfair-display, serif;
@@ -51,8 +47,6 @@ a{
   background-color: #FFF5D1;
   color: #212625
 }
-
-
 a:hover{
   font-family: playfair-display, serif;
   font-weight: 700;
@@ -65,7 +59,6 @@ a:hover{
   background-color: #FFF5D1;
   color: #BF5757
 }
-
 a:active{
   font-family: playfair-display, serif;
   font-weight: 700;
@@ -79,8 +72,6 @@ a:active{
   background-color: #FFF5D1;
   color: #BF5757
 }
-
-
 form{
   font-family: "Crimson Text";
   font-size: 14px; font-style: normal;
@@ -98,7 +89,6 @@ input{
   border:#212625 solid;
   border-radius: 10px;
 }
-
 button{
   font-family: playfair-display, serif;
   font-weight: 700;
@@ -134,8 +124,6 @@ button:active{
   background-color: #FFF5D1;
   color: #BF5757
 }
-
-
 #img img{
   width:100vw;
   height: 80vh;

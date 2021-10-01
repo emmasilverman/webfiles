@@ -85,6 +85,11 @@ form{
   margin-block-start: 5em;
 }
 input{
+  font-family: "Crimson Text";
+  font-size: 14px; font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
   background-color:#FFF5D1;
   border:#212625 solid;
   border-radius: 10px;
@@ -93,6 +98,7 @@ button{
   font-family: playfair-display, serif;
   font-weight: 700;
   font-style: normal;
+  margin-block-start: 1em;
   width: 100px;
   font-size: 20px;
   border-radius: 10px;

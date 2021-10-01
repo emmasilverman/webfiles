@@ -1,32 +1,144 @@
 body{
-  font-family: playfair-display, serif;
+  font-family: "Crimson Text";
+  font-size: 14px; font-style: normal;
+  font-variant: normal;
   font-weight: 400;
-  font-style: normal;
+  line-height: 20px;
   background-color: #FFF5D1;
   color: #212625;
-  margin: auto;
-}
-
-h1{
-  font-family: playfair-display, serif;
-  font-weight: 900;
-  font-style: normal;
-  font-size: 50px;
   text-align: center;
 }
 
-button{
-  border: solid #877387 1px;
+h1{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 50px;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+h2{
+  font-family: playfair-display, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+  color: #BF5757;
+  margin-block-start: 2em;
+  margin-block-end: -1.5em;
+}
+
+p{
+  margin: 100px;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+}
+hr{
+  border: #B8DBD7 5px solid;
+  border-radius: 10px;
+  decoration: none;
+}
+
+a{
+  text-decoration: none;
+  font-family: playfair-display, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-left: .5em;
+  padding-right: .5em;
+  border: #212625 solid 5px;
   background-color: #FFF5D1;
-  color:#877387;
+  color: #212625
 }
 
+
+a:hover{
+  font-family: playfair-display, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 10px;
+
+  border: #BF5757 solid 5px;
+  margin: 10px;
+  background-color: #FFF5D1;
+  color: #BF5757
+}
+
+a:active{
+  font-family: playfair-display, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 10px;
+  text-decoration: underline;
+  text-shadow: 5px #BF5757;
+  border: #BF5757 solid 5px;
+  margin: 10px;
+  background-color: #FFF5D1;
+  color: #BF5757
+}
+
+
+form{
+  font-family: "Crimson Text";
+  font-size: 14px; font-style: normal;
+  font-variant: normal;
+  border-radius: 10px;
+  border: #BF5757 solid 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-block-start: 5em;
+}
+input{
+  background-color:#FFF5D1;
+  border:#212625 solid;
+  border-radius: 10px;
+}
+
+button{
+  font-family: playfair-display, serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: #212625 solid 5px;
+  background-color: #FFF5D1;
+  color: #212625
+}
 button:hover{
-
+  font-family: playfair-display, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  width: 100px;
+  border-radius: 10px;
+  border: #BF5757 solid 5px;
+  background-color: #FFF5D1;
+  color: #BF5757;
+}
+button:active{
+  font-family: playfair-display, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: underline;
+  border-radius: 10px;
+  width: 100px;
+  text-shadow: 5px #BF5757;
+  border: #BF5757 solid 5px;
+  background-color: #FFF5D1;
+  color: #BF5757
 }
 
-#img{
-  width: 700vw;
-  overflow: hidden;
-  align: center;
+
+#img img{
+  width:100vw;
+  height: 80vh;
+  border: #877387 solid 10px;
+  border-radius: 10px;
 }

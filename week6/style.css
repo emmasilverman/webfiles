@@ -27,6 +27,13 @@ h1 {
   bottom:200px;
 }
 
+img{
+  position: relative;
+  width:100vw;
+  bottom:200px;
+
+}
+
 body{
   background-color:#F2A766;
   font-family: orpheuspro, serif;

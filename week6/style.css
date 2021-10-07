@@ -1,0 +1,70 @@
+h1 {
+  font-family: masqualero-groove, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px;
+}
+
+#hero {
+  overflow: hidden;
+  width:100vw;
+  height: 90vh;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+#hero h1 {
+  z-index: 1;
+  position: relative;
+  font-size: 60px;
+  text-align:center;
+  bottom: 15px;
+}
+#hero img {
+  position: relative;
+  width:100vw;
+  bottom:200px;
+}
+
+body{
+  background-color:#F2A766;
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+button{
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  padding:10px 20px;
+  border-color: #D95A4E;
+  background-color:#7A9FBF;
+}
+button:hover{
+  background-color: #F2BA52;
+}
+button:active{
+  font-weight: 700;
+  border-color: solid black 3px;
+  text-decoration: underline solid 1px;
+}
+
+a:link{
+  color:#392973;
+}
+a:hover{
+  color:#222059;
+  font-style: italic;
+}
+a:active{
+  color: red;
+}
+a:visited{
+  color: grey;
+}

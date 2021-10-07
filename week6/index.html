@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+
+<html lang = "en">
+<head>
+  <title>Week 6</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/svz2gdu.css">
+</head>
+
+<body id="body">
+  <section id="hero">
+    <div>
+    <h1 id="herotype">Welcome to my site!</h1>
+    <img alt="New York City skyline at sunset" src="week6/nyc.jpg" id="heroimg">
+  </div>
+  </section>
+  <section id="one">
+    <div>
+    <h2>This is my <span id="firstsection">first section</span></h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    <p>Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Leo urna molestie at elementum eu facilisis sed. Molestie at elementum eu facilisis sed. Penatibus et magnis dis parturient montes nascetur ridiculus mus. Ullamcorper eget nulla facilisi etiam dignissim. Ut diam quam nulla porttitor. Sed ullamcorper morbi tincidunt ornare. Elementum tempus egestas sed sed. Facilisi morbi tempus iaculis urna id. Adipiscing enim eu turpis egestas pretium aenean pharetra. Faucibus turpis in eu mi bibendum neque egestas. Eget dolor morbi non arcu risus quis varius. Netus et malesuada fames ac turpis egestas sed tempus urna.</p>
+  </div>
+  </section>
+
+  <section id="two">
+    <div>
+    <h2>This is my second section, <a href="https://www.google.com">  click here to access my portfolio</a></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Dictum non consectetur a erat nam at. Tortor at auctor urna nunc id. Magna sit amet purus gravida quis blandit turpis. At lectus urna duis convallis convallis tellus id interdum. Tincidunt praesent semper feugiat nibh sed pulvinar. Diam phasellus vestibulum lorem sed risus ultricies. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Augue eget arcu dictum varius duis at. Nunc aliquet bibendum enim facilisis gravida neque convallis a cras. Malesuada nunc vel risus commodo viverra maecenas. Fermentum iaculis eu non diam phasellus vestibulum lorem. Volutpat consequat mauris nunc congue. Nisl tincidunt eget nullam non nisi est sit amet facilisis.</p>
+  </div>
+  </section>
+  <section id="button">
+    <h2>This section contains a button</h2>
+    <button id="mybutton"> Click Here </button>
+    <button id="mybutton2"> Click Here </button>
+  </section>
+
+  <script>
+    document.getElementById("mybutton").addEventListener("click", buttonOne);
+    document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+    document.getElementById("hero").addEventListener("click", heroClicked);
+    console.log("javascript working");
+    function buttonClicked(){
+      alert("you pushed the second button!")
+      document.getElementById("herotype").innerHTML = "You are not welcome!";
+    }
+    function heroClicked(){
+      alert("You clicked the hero!");
+    }
+    function buttonOne(){
+      alert("you pushed the button!")
+      document.getElementById("firstsection").style.color = "red";
+      document.getElementById("body").style.backgroundColor = "skyblue";
+    }
+  </script>
+
+
+</body>
+
+
+</html>

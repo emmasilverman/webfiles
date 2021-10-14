@@ -1,84 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>HELLO ME PAGE</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.typekit.net/ocr8wcg.css">
-  </head>
+<head>
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.typekit.net/svz2gdu.css">
+</head>
+<body>
+  <section>
+  <img id="love1" src="week7/1.png" alt="love letter pink and red">
+  <h1 id="qtext">Welcome to the quote machine, click the button to get a quote!</h1>
+  <button id="newquote">New Quote</button>
+  </section>
 
-  <body>
-    </section>
-    <section id="pagetop">
-      <a href="#footer">Go to end</a>
-      <h1>Emma Rae Silverman</h1>
-      <img src="week2/EmmaBlue.png" style="width:20vw" alt="Emma Silverman poses under blue light."/>
-    </section>
-    <section id="table">
-      <table>
-        <tr>
-          <th>Week Links Click Below To Access</th>
-        </tr>
-        <tr>
-          <td><a href="week1/index.html">week1 - My First Website></td>
-        </tr>
-        <tr>
-          <td><a href="week2/index.html">week2 - Website including image></td>
-        </tr>
-        <tr>
-          <td><a href="week3/Pattern Library Silverman.pdf">week3 - Pattern Library></td>
-        </tr>
-        <tr>
-          <td><a href="index.html">week4 - This page "hello me"></td>
-        </tr>
-        <tr>
-          <td><a href="week5/index.html">week5 - CSS Website></td>
-        <tr>
-        <tr>
-          <td><a href="week6/index.html">week6 - JavaScript 1></td>
-        <tr>
-        <tr>
-          <td><a href="week7/index.html">week7 - Quote Machine></td>
+  <!-- <section id="flex">
+    <div>
+      <h2>Monday</h2>
+    </div>
+    <div>
+      <h2>Tuesday</h2>
+    </div>
+    <div>
+      <h2>Wednesday</h2>
+    </div>
+    <div>
+      <h2>Thursday</h2>
+    </div>
+    <div>
+      <h2>Friday</h2>
+    </div>
+    <div>
+      <h2>Saturday</h2>
+    </div>
+    <div>
+      <h2>Sunday</h2>
+    </div>
 
-      </table>
-    <section id="aboutme">
-      <h3> My name is Emma Rae (she/her/hers), here are some things you should know about me...</h3>
-      <p>I am a senior at the University of Colorado at Boulder studying Strategic Communications in the Public Relations track and minoring in Creative Technology Design, which has brought me here! I'm from New Jersey and I came to Boulder to slow down and spend some time outdoors in a relaxed environment. I like to snowboard, I enjoy taking photos, and love hands-on art</p>
-    </section>
+  </section> -->
 
+  <script>
+  const quotes = ["I love you not only for what you are, but for what I am when I am with you. I love you not only for what you have made of yourself, but for what you are making of me. I love you for the part of me that you bring out." , "When I say I love you more, I don’t mean I love you more than you love me. I mean I love you more than the bad days ahead of us, I love you more than any fight we will ever have. I love you more than the distance between us, I love you more than any obstacle that could try and come between us. I love you the most.","Love is the magician that pulls man out of his own hat.” , “I would rather spend one lifetime with you, than face all the ages of this world alone.","One word frees us of all the weight and pain of life: that word is love.","It is better to be hated for what you are than to be loved for what you are not.","Love many things, for therein lies the true strength, and whosoever loves much performs much, and can accomplish much, and what is done in love is done well.","We can only learn to love by loving."];
+  let quotecount = 0;
 
-    <section id="work">
-      <h3>Past Work</h3>
-      <ul>
-        <li>Bespoke Representatives Talent Agency</li>
-        <li>Bryman Counseling Associates Fertility Agency</li>
-        <li>Andre Bato CORP. Film Production Agency</li>
-      </ul>
-    </section>
-    <section>
-    <section id="contact">
-    <h3>Contact Me</h3>
-    </section>
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
 
-      <form>
+  function buttonClicked(){
+      console.log(quotes[quotecount]);
+      document.getElementById("qtext").innerHTML = quotes[quotecount];
+      if(quotecount >=6){
+        quotecount = 0
+      }else{
+        quotecount ++;
+      }
+  }
 
-        <label>
-          First Name: <input name="Name1">
-        </label>
-        <label>
-          Last Name: <input name="Name2">
-        </label>
-        <label>
-          Email: <input name="email3">
-        </label>
-        <button id="submit">Submit</button>
-      </form>
-    </section>
-
-
-    <section id="footer">
-    <a href="#pagetop">Back to top</a>
-    </section>
-
-  </body>
-
+  </script>
+</body>
 </html>

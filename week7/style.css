@@ -1,84 +1,68 @@
-section {
+body{
+  background-color: #F9C1B7;
+}
+
+img{
+  margin-left:20em;
+  width: 15em;
+  height: 15em;
+  position: relative;
+  z-index: 1;
+
+}
+
+img:hover{
+  margin-left:20em;
+  width: 20em;
+  height: 20em;
+  position: relative;
+  z-index: 1;
+  margin-top: 2em -10em;
+  margin-top: 2em 1em;
+  padding-top: -2em;
+  padding-bottom: -5em;
+}
+
+#quotemachine{
   background-color: #DDAEA0;
-  margin:30vh 20vw;
-  padding: 5vw 5vh;
-  border-radius:10px;
-  margin-top: 2em;
-}
-
-button{
-  border-radius: 8px;
-  border-color: solid 2px #92685B;
-  margin-top: -2vh;
-  margin-right: 17em;
-  float: right;
-  font-family: charcuterie-engraved, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-}
-
-button:hover{
-  color: #92685B;
   border-radius: 10px;
-  border-color: solid 2px #92685B;
-  text-decoration: underline;
-}
-
-h1{
   font-family: charcuterie-deco, sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  margin-top:-5em;
+  font-size: 20px;
+  color: white;
+  padding: 2em 2em;
+  margin: -1em 2em;
+  z-index: 1;
 }
 
-body{
-  color: #FFF8F5;
-}
-
-h2{
-  text-align: center;
-}
-
-img{
-  height:45vw;
-  margin-top:-15em;
-  margin-left: 2em;
-  margin-right: 7em;
-  padding: 1em 1em;
-}
-
-/* #flex{
-  display: flex;
-  width: 20em;
-  margin-top: -2em;
-  margin:auto;
-  padding:  25vh 30vw;
-  font-family: charcuterie-filigree, sans-serif;
+button{
+  padding: 1em 2em;
+  margin-bottom: 2em;
+  font-family: charcuterie-etched, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-
+  background-color: #92685B;
+  border-radius: 5px;
+  color: white;
+  border-color: white;
+  border: 2px solid;
 }
 
-.flexitem{
-  flex-grow: 1;
-  margin: auto;
-  padding: 5vh 10vw;
+button:hover{
+  padding: 1em 2em;
+  margin-bottom: 2em;
+  font-family: charcuterie-etched, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: underline;
+  background-color: #E1BF89;
+  border-radius: 5px;
+  color: black;
+  border-color:black;
+  border: 2px solid;
+
 }
-
-.social{
-  width: 10vw;
-  min-width: 15px;
-  margin: auto;
-  display: block;
-  padding: 5vh 5vw;
-
-}
-
-div{
-  margin-left: .5em;
-  border: solid 1px black;
-  padding: 5vh 5vw;
-} */

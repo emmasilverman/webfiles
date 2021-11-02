@@ -6,32 +6,40 @@
 <link rel="stylesheet" href="https://use.typekit.net/svz2gdu.css">
 </head>
 <section id="gallery">
-  <a href="1.png"><img id="love1" src= "1.png" alt="mailed love letter"></a>
-  <a href="2.png"><img src="2.png" alt="heart emoji pink thought bubble"></a>
+  <!-- <a href="1.png"><img id="love1" src= "week7/1.png" alt="mailed love letter"></a>
+  <a href="2.png"><img src="week7/2.png" alt="heart emoji pink thought bubble"></a> -->
 
 
 </section>
 <section id="quotemachine">
-  <!-- <img id="love1" src="week7/1.png" alt="love letter pink and red"> -->
+  <img id="love1" src="week7/1.png" alt="love letter pink and red">
   <h1 id="quotes">Welcome to the quote machine, click the button to get a quote</h1>
   <button id="anotherone" onclick="changeImage();">New Quote</button>
 </section>
 <section id="gallery2">
-  <a href="5.png"><img src="5.png" alt="heart balloons "></a>
-  <a href="6.png"><img src="6.png" alt="heart flower growing from plant pot"></a>
+  <a href="5.png"><img src="week7/5.png" alt="heart balloons "></a>
+  <a href="6.png"><img src="week7/6.png" alt="heart flower growing from plant pot"></a>
 </section>
 
 
 
 <script>
-const quotes= ["I love you not only for what you are, but for what I am when I am with you. I love you not only for what you have made of yourself, but for what you are making of me. I love you for the part of me that you bring out." , "When I say I love you more, I don’t mean I love you more than you love me. I mean I love you more than the bad days ahead of us, I love you more than any fight we will ever have. I love you more than the distance between us, I love you more than any obstacle that could try and come between us. I love you the most.","Love is the magician that pulls man out of his own hat.” , “I would rather spend one lifetime with you, than face all the ages of this world alone.","One word frees us of all the weight and pain of life: that word is love.","It is better to be hated for what you are than to be loved for what you are not.","Love many things, for therein lies the true strength, and whosoever loves much performs much, and can accomplish much, and what is done in love is done well.","We can only learn to love by loving."]
+const quotes= ["I love you not only for what you are, but for what I am when I am with you. I love you not only for what you have made of yourself, but for what you are making of me. I love you for the part of me that you bring out." , "When I say I love you more, I don’t mean I love you more than you love me. I mean I love you more than the bad days ahead of us, I love you more than any fight we will ever have. I love you more than the distance between us, I love you more than any obstacle that could try and come between us. I love you the most.","Love is the magician that pulls man out of his own hat.” , “I would rather spend one lifetime with you, than face all the ages of this world alone.","One word frees us of all the weight and pain of life: that word is love.","It is better to be hated for what you are than to be loved for what you are not.","Love many things, for therein lies the true strength, and whosoever loves much performs much, and can accomplish much, and what is done in love is done well.","We can only learn to love by loving."];
+const images=["1.png","2.png","3.png","4.png","5.png"];
 let count = 0;
 document.getElementById("anotherone").addEventListener("click", buttonClicked);
-// function changeImage(){
-//   document.getElementById("love1").src="week7/1.png";
-//   document.getElementById("love12").src="week7/2.png";
-//   document.getElementById("love13").src="week7/3.png";
-// }
+
+let imgcount = 1;
+function changeImage(){
+  console.log("hello world!");
+  document.getElementById("love1").src="week7/"+ images[imgcount];
+  imgcount ++;
+
+  if(imgcount>4){imgcount=0;
+  }
+}
+
+
 // function changeImg(){
 //   var images = document.getElementById("love1");
 //   if(image.src.("week7/1.png")){

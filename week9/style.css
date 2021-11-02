@@ -1,0 +1,106 @@
+h1{
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 36px;
+}
+html, body{
+  background-color: #F2BDBD;
+  margin: 0;
+  overflow: auto;
+}
+
+#week_head{
+  display: flex;
+  margin-left: 5em;
+  margin-right:5em;
+  font-family: 'Noto Serif', serif;
+  font-weight: 0;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.etab_tab {
+    flex-grow: 1;
+    width: auto;
+    border: 5px solid #0D0504;
+    color: #0D0504;
+    background-color: #F2DFDF;
+    text-align: center;
+    margin: 8px;
+}
+
+#selfcare_menu{
+  background-color: #F2DFDF;
+  border: 10px solid #A63740;
+  border-radius: 10px;
+  padding: 3em 3em 3em 3em;
+  width: 80vw;
+  height: 80vh;
+  position: relative;
+  border-top: none;
+  font-family: 'Noto Serif', serif;
+  font-weight: 0;
+  font-size: 24px;
+  list-style: inside;
+  text-align: center;
+  display: flex inline-block;
+  margin: auto;
+}
+
+ul{
+  display: inline-block;
+  text-align: left;
+}
+
+
+
+.hidden{
+  display: none;
+}
+.active{
+  background-color: #A63740;
+
+}
+
+img{
+  position: relative;
+  width: 20vw;
+
+}
+
+
+/* #tabs{
+  display: flex;
+  margin: 10vh 10vw;
+}
+#selfcare{
+  display: flex;
+  margin: 0vh 10vw 0 10vw;
+}
+.week{
+  flex-grow: 1;
+  width: auto;
+  border: 1px solid black;
+}
+h2{
+  margin-top: 35px;
+  padding-bottom: 0;
+  font-size: 1.8em;
+}
+#image,.menu{
+  flex-grow: 1;
+  width:auto;
+  height: 100px;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.afternoon{
+  display:none;
+}
+
+.active{
+  background-color:pink;
+} */

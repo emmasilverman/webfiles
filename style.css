@@ -184,7 +184,7 @@ p{
   margin-top: 5em;
 }
 
-.button{
+a{
   width: 250px;
   height: 100px;
   font-family: 'Noto Serif', serif;
@@ -196,7 +196,7 @@ p{
   margin: 2em;
 }
 
-.button:hover{
+a:hover{
   background-color: white;
   text-shadow: .5px .5px black;
   text-decoration: underline;

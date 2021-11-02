@@ -77,7 +77,7 @@ p{
 .dd_wrap ul li a{
 	display: block;
 	background: #F2DFDF;
-	padding: 15px 40px;
+	padding: 10px 40px;
 	width: 130%;
   color: black;
 	letter-spacing: 2px;
@@ -184,7 +184,7 @@ p{
   margin-top: 5em;
 }
 
-a{
+.button{
   width: 250px;
   height: 100px;
   font-family: 'Noto Serif', serif;
@@ -196,7 +196,7 @@ a{
   margin: 2em;
 }
 
-a:hover{
+.button:hover{
   background-color: white;
   text-shadow: .5px .5px black;
   text-decoration: underline;

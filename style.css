@@ -62,19 +62,19 @@ p{
 	background: white;
 }
 
-.dd_wrap{
+.day_menu{
 	width: 225px;
 	position: relative;
 	display: none;
   margin-left: 150px;
 }
 
-.dd_wrap ul li{
+.day_menu ul li{
 	position: relative;
   top: 46px;
 }
 /* menu */
-.dd_wrap ul li a{
+.day_menu ul li a{
 	display: block;
 	background: #F2DFDF;
 	padding: 10px 40px;
@@ -85,22 +85,22 @@ p{
   margin-left: 3em;
 }
 
-.dd_wrap ul li a:hover,
-.dd_wrap ul li a.active{
+.day_menu ul li a:hover,
+.day_menu ul li a.active{
   background: white;
 }
 
-.dd_wrap ul li:first-child a{
+.day_menu ul li:first-child a{
 	border-top-right-radius: 3px;
 	border-top-left-radius: 3px;
 }
 
-.dd_wrap ul li:last-child a{
+.day_menu ul li:last-child a{
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 }
 /* arrow */
-.dd_wrap:before{
+.day_menu:before{
 	content: "";
 	position: absolute;
 	transform: translateX(-50%);
@@ -112,7 +112,7 @@ p{
 }
 
 /* icon */
-.dd_wrap ul li a .icon{
+.day_menu ul li a .icon{
 	width: 30px;
 	display: inline-block;
   text-align: center;
@@ -128,7 +128,7 @@ p{
   top: 13px;
 }
 
-.dd_wrap.active{
+.day_menu.active{
 	display: block;
   justify-content: center;
   margin-left: -150px;
@@ -153,7 +153,7 @@ p{
   border-color: transparent #F2DFDF transparent transparent;
 }
 
-.dd_wrap ul li a.active + .dd_menu{
+.day_menu ul li a.active + .dd_menu{
 	display: block;
   margin-left: 50px;
   margin-top: -2em;

@@ -179,14 +179,23 @@ p{
 #buttons_1{
   display: flex;
   justify-content: center;
-  position: relative;
-  margin-bottom: 5em;
-  margin-top: 5em;
+  padding: 3em;
+  padding-bottom: 3em;
+  padding-top: 3em;
+  margin-left: 1.5em;
+}
+#buttons_2{
+  display: flex;
+  justify-content: center;
+  padding-top: 10em;
+  padding-bottom: 3em;
 }
 
 .button{
-  width: 250px;
-  height: 100px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   font-family: 'Noto Serif', serif;
   text-align: center;
   font-size: 24px;
@@ -194,6 +203,7 @@ p{
   color: #0D0504;
   background-color: #F2DFDF;
   margin: 2em;
+  justify-content: center;
 }
 
 .button:hover{
@@ -206,6 +216,7 @@ p{
 
 a{
   color: black;
+
 }
 a:hover{
   color:#A66F6F;
@@ -213,10 +224,4 @@ a:hover{
 
 a:active{
   color: #A66F6F;
-}
-
-#buttons_2{
-  display: flex;
-  justify-content: center;
-  margin-top: .5em;
 }

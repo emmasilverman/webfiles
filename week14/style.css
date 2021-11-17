@@ -1,0 +1,112 @@
+@media screen and (min-width:700px){
+  h1{
+    font-size: 150px;
+    margin-top: -200px;
+  }
+  #hero{
+    display: block;
+  }
+
+}
+@media screen and (max-width:701px){
+  h1{
+    font-size: 40px;
+  }
+  #hero{
+    display: none;
+  }
+}
+html{
+
+}
+#hero{
+  width: 100%;
+  height: 30em;
+  object-fit: cover;
+}
+h1{
+  z-index: 1;
+  position: absolute;
+  font-family: headline-gothic-atf-rough-n2, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  margin-left: 150px;
+  text-shadow: 0 0 7px white;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 5, 2fr;
+  grid-template-areas:
+    "header"
+    "cat"
+    "child"
+    "hotel"
+    "elephant"
+    "stars";
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: stretch;
+
+    /* "header"
+    "two"
+    "three"
+    "four"
+    "five"
+    "six"; */
+ }
+
+
+ #header{
+   grid-area: header;
+   width: 400px;
+   height: 500px;
+   grid-column-start: 1;
+   grid-row-start: 1;
+   grid-row-end: 3;
+   margin-left: auto;
+   margin-top: 1em;
+ }
+ #cat{
+   width: 550px;
+   height:450px;
+   grid-area: cat;
+   object-fit: cover;
+   grid-column-start: 2;
+   grid-row-end: 2;
+ }
+ #child{
+   width: 550px;
+   height: 450px;
+   grid-area: child;
+   grid-row-start: 3;
+   grid-row-end: 4;
+   margin-left: auto;
+ }
+ #hotel{
+   width: 400px;
+   height: 500px;
+   grid-area: hotel;
+   grid-column-start: 2;
+   grid-row-start: 3;
+
+ }
+ #elephant{
+   width: 500px;
+   height: 350px;
+   grid-area: elephant;
+   grid-row-start: 4;
+   margin-left: auto;
+ }
+ #stars{
+   width: 450px;
+   height: 300px;
+   grid-area: stars;
+   grid-column-start: 2;
+   grid-row-start: 4;
+   grid-row-end: 4;
+   margin-top: 3em;
+ }

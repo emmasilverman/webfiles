@@ -1,0 +1,257 @@
+h1{
+  font-family: futura-pt, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 60px;
+  color: #333333;
+}
+
+#logo{
+  position: relative;
+
+/* #logo-holder {position:relative; width:992px; height:125px; /*dimensions of image*/}
+/* #logo-holder .image,
+#logo-holder .text {transition: opacity 0.5s ease-in-out;}
+#logo-holder .text {position:absolute; top:0; left:0; opacity:0;}
+
+#logo-holder:hover .image {opacity:0;}
+#logo-holder:hover .text {opacity:1;} */
+}
+#logo.img,
+#logo.text{
+  transition: opacity 10s ease;
+}
+#logo .text{
+  position: absolute;
+  opacity: 1;
+  margin-top:-27em;
+  margin-left: 450px;
+  margin-bottom: 10em;
+}
+#logo:hover .hawt{
+  opacity: 1;
+}
+#logo:hover .text{
+  opacity: 1;
+}
+.slime{
+  width: 1450px;
+  height: 300px;
+  margin-left: -1em;
+  margin-top: -6em;
+}
+.hawt{
+  width: 250px;
+  height: 250px;
+  margin-left: 1.5em;
+  margin-bottom: 8em;
+  z-index: 1;
+}
+#nav_menu{
+  z-index: 2;
+}
+.links{
+  margin-bottom: 15em;
+}
+h2{
+  font-family: futura-pt, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+  color: #333333;
+  margin-left: .5em;
+  margin-top: -2em;
+}
+h3{
+  font-family: futura-pt, sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: 400;
+}
+#nav{
+  margin-bottom: -25em;
+  height: 2em;
+  display: block;
+  width: 300px;
+  margin-left: 2.5em;
+}
+#nav a{
+  text-decoration: none;
+  color: #333333;
+}
+#nav a:hover{
+  color: #257F75;
+  text-decoration: underline;
+}
+#nav a:active{
+  text-decoration: underline;
+}
+.nav_break{
+  height: 10px;
+}
+
+.page_title_break{
+  height:10px;
+}
+#page_title{
+  text-decoration: none;
+}
+.page_title:active{
+  text-decoration: line-through;
+  color: #333333;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    /* same size so they are squares */
+    grid-template-rows: repeat(2, 400px);
+    grid-gap: 50px;
+    margin-left: 20em;
+    margin-top: 3em;
+}
+.gallery__img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.gallery__item--1 img:hover{
+  opacity: 50%;
+}
+.gallery__item--2 img:hover{
+  opacity: 50%;
+}
+.gallery__item--3 img:hover{
+  opacity: 50%;
+}
+.gallery__item--4 img:hover{
+  opacity: 50%;
+}
+#gallery_text_1{
+  opacity: 0;
+  display: block;
+  margin-top: -10em;
+  padding: 10px;
+  width:100%;
+  z-index: 1;
+  margin-left: 2em;
+}
+#gallery_text_1:hover{
+  opacity: 100;
+  display: block;
+}
+#gallery_text_2{
+  opacity: 0;
+  display: block;
+}
+#gallery_text_2:hover{
+  opacity: 100;
+  display: block;
+}
+#gallery_text_3{
+  opacity: 0;
+  display: block;
+}
+#gallery_text_3:hover{
+  opacity: 100;
+  display: block;
+}
+#gallery_text_4{
+  opacity: 0;
+  display: block;
+}
+#gallery_text_4:hover{
+  opacity: 100;
+  display: block;
+}
+/* .gallery a{
+  opacity: 0
+}
+.gallery a:hover{
+  opacity: 100;
+} */
+/* #gallery_text_1{
+  opacity: 0;
+}
+
+#gallery_text_1 a:hover{
+  justify-content: center;
+  opacity: 100;
+} */
+.gallery__item--2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.gallery__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.gallery__item--4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+/* .gallery{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 2vw);
+  grid-template-areas:
+    "about_me"
+    "resume"
+    "social_media"
+    "pr_work";
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: stretch;
+  } */
+
+/* #about_me{
+    grid-area: about_me;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 15em;
+    object-fit: cover;
+  }
+#resume{
+    width: 100%;
+    height:100%;
+    grid-area: resume;
+    object-fit: cover;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+#social_media{
+    width: 550px;
+    height: 450px;
+    grid-area: social_media;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-left: auto;
+  }
+#pr_work{
+    width: 800px;
+    height: 500px;
+    grid-area: pr_work;
+    grid-column-start: 2;
+    grid-row-start: 3;
+
+  }
+/* How do I stop the underline from going purple after pressed link? */ */

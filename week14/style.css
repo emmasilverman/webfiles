@@ -1,29 +1,3 @@
-@media screen and (min-width:700px){
-  h1{
-    font-size: 150px;
-    margin-top: -200px;
-  }
-  #hero{
-    display: block;
-  }
-
-}
-@media screen and (max-width:701px){
-  h1{
-    font-size: 40px;
-  }
-  #hero{
-    display: none;
-  }
-}
-html{
-
-}
-#hero{
-  width: 100%;
-  height: 30em;
-  object-fit: cover;
-}
 h1{
   z-index: 1;
   position: absolute;
@@ -50,16 +24,7 @@ h1{
   column-gap: 10px;
   row-gap: 10px;
   justify-content: stretch;
-
-    /* "header"
-    "two"
-    "three"
-    "four"
-    "five"
-    "six"; */
- }
-
-
+}
  #header{
    grid-area: header;
    width: 400px;
@@ -109,4 +74,23 @@ h1{
    grid-row-start: 4;
    grid-row-end: 4;
    margin-top: 3em;
+ }
+ @media screen and (min-width:700px){
+   h1{
+     font-size: 150px;
+     margin-top: -200px;
+   }
+ }
+
+ @media screen and (max-width:701px){
+   h1{
+     font-size: 12px;
+   }
+   #hero{
+     display: none;
+   }}
+ #hero{
+   width: 100%;
+   height: 30em;
+   object-fit: cover;
  }

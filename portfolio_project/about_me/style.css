@@ -1,0 +1,41 @@
+h1{
+    font-family: futura-pt, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    color: #333333;
+    margin-top: .5em;
+    margin-left: 9.5em;
+}
+button{
+  width: 250px;
+  height:60px;
+  background-color: #333333;
+  border: none;
+  margin-left: 45em;
+  margin-top: 2em;
+}
+h3{
+    font-family: futura-pt, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-top: 11px;
+  }
+
+p{
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  font-size: 24px;
+  padding-left: 4.5em;
+  padding-right: 4.5em;
+  margin-top: -1em;
+}
+img{
+  width: 700px;
+  height: 500px;
+  margin-left: 25em;
+}

@@ -1,0 +1,54 @@
+h1{
+    font-family: futura-pt, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    color: #333333;
+    margin-top: .5em;
+    margin-left: 9.7em;
+}
+button{
+  width: 250px;
+  height:60px;
+  background-color: #333333;
+  border: none;
+  margin-left: 45em;
+  margin-top: 2em;
+}
+h3{
+    font-family: futura-pt, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-top: 11px;
+  }
+.gallery{
+  display: grid;
+  grid-template-rows: 3;
+  grid-template-columns: 3;
+  /* same size so they are squares */
+  grid-gap: 50px;
+}
+.image1 img{
+  width: 500px;
+  height: 600px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+}
+.image2 figure{
+  width: 500px;
+  height: 600px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.image3 img{
+  width: 500px;
+  height: 500px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}

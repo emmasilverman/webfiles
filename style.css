@@ -1,281 +1,154 @@
-@media screen and (min-width:700px){
-  #emma{
-    display: block;
-  }
-  p{
-    font-size: 16px;
-  }
-  #work{
-    font-size:16px;
-    text-align: center;
-    list-style-position: inside;
-  }
-  #contact{
-    font-size: 16px;
-  }
-  #aboutme{
-    font-size:20px;
-  }
-  h1{
-    font-size: 100px;
-  }
-  a{
-    font-size:20px;
-  }
-  a.nav{
-    font-size:20px;
-    margin-left: 9em;
-  }
-  h3{
-    font-size:20px;
-    text-align: center;
-  }
-  form{
-    font-size: 20px;
-    margin-left: 31em;
-  }
-  label{
-    font-size: 20px;
-  }
-  button{
-    font-size: 20px;
-  }
-  table{
-    margin-left: 22.5em;
-  }
+h1{
+  font-family: futura-pt, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 60px;
+  color: #333333;
+  margin-top: -.2em;
 }
-
-@media screen and (max-width:701px){
-  #emma{
-    display: none;
+.slime{
+  width: 1450px;
+  height: 300px;
+  margin-left: -1em;
+  margin-top: -6em;
+}
+.hawt{
+  width: 250px;
+  height: 250px;
+  margin-left: 1.5em;
+  margin-bottom: 16em;
+  z-index: 1;
+}
+#logo.img,
+#logo.text{
+  transition: opacity 10s ease;
+  margin-bottom: 10em;
+}
+#logo .text{
+  position: absolute;
+  opacity: 1;
+  margin-top:-32em;
+  margin-left: 450px;
+  margin-bottom: 10em;
+}
+#logo:hover .hawt{
+  opacity: 1;
+}
+#logo:hover .text{
+  opacity: 1;
+}
+#nav_menu{
+  margin-top: -15em;
+}
+h2{
+    font-family: futura-pt, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    color: #333333;
+    margin-left: .5em;
+    margin-top: -2em;
   }
-  p{
-    font-size: 12px;
-  }
-  #work{
-    font-size: 12px;
-    text-align: left;
-  }
-  #contact{
-    font-size: 12px;
-  }
-  #aboutme{
-    font-size: 12px;
-  }
-  h1{
+h3{
+    font-family: futura-pt, sans-serif;
+    font-style: italic;
     font-size: 25px;
-    justify-content: center;
+    font-weight: 400;
   }
-  a{
-    font-size:12px;
+#nav{
+    margin-bottom: -25em;
+    height: 2em;
+    display: block;
+    width: 300px;
+    margin-left: 2.5em;
   }
-  a.nav{
-    font-size:12px;
-    margin-left: 1.5em;
+#nav a{
+    text-decoration: none;
+    color: #333333;
+  }
+#nav a:hover{
+    color: #257F75;
+    text-decoration: underline;
+  }
+#nav a:active{
+    text-decoration: underline;
+  }
+.nav_break{
+    height: 10px;
   }
 
-  h3{
-    font-size:12px;
-    text-align: left;
+.page_title_break{
+    height:10px;
   }
-  form{
-    font-size: 12px;
-    list-style-position: outside;
-    text-align: left;
+#page_title{
+    text-decoration: none;
   }
-  label{
-    font-size: 12px;
+.page_title:active{
+    text-decoration: line-through;
+    color: #333333;
   }
-  button{
-    font-size:12px;
-  }
-  table{
-    justify-content: center;
-  }
+.gallery img{
+  width: 850px;
+  height: 500px;
+  margin-left: 21em;
+  margin-top: 5em;
+  margin-bottom: 1em;
+  border: 2px solid #333333;
+  opacity: 40%;
 }
-
-html{
-  flex-wrap: wrap;
-  display: flex;
+.gallery img:hover{
+  border: none;
+  z-index: -1;
+  opacity: 100;
 }
-body{
-  background-color: #FAF0DD;
-  color: black;
-}
-#gotoend1{
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #9837F0;
+.gallery h2{
+  color: #257F75;
+  font-size: 100px;
+  z-index: 2;
+  opacity: 70%;
+  position: relative;
   text-align: center;
 }
-#navmenu{
-  margin-top: 1em;
-  background-color: #9837F0;
-  width: 100%;
-  height: 2em;
-  overflow: hidden;
-}
-#pagetop{
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: bold;
-  color: #9837F0;
-  align-content: center;
-  text-align: center;
-}
-
-a.nav{
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
-  padding: 1em;
-  padding-top:10em;
+.gallery a{
   text-decoration: none;
 }
-a.nav:hover{
-  background-color: #B99CF0;
+.text1{
+  text-decoration: none;
+  margin-left: 27.2em;
+  position: absolute;
+  text-align: center;
+  margin-top: -7em;
 }
-
-h1{
-  font-family: headline-gothic-atf-rough-n2, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  margin: auto;
+.text1 h2:hover{
+  opacity: 100;
 }
-img{
-  width: 350px;
-  height: 400px;
-  margin-bottom: 1em;
-  margin-left: 30em;
-}
-#end{
+.text2{
+  margin-left: 31em;
+  margin-top: -7em;
+  text-decoration: none;
+  position: absolute;
   text-align: center;
 }
-h3{
-  font-family: ff-nuvo-mono-web-pro, sans-serfif;
-  font-weight: 700;
-  font-style: normal;
-  color: black;
+.text2 h2:hover{
+  opacity: 100;
 }
-#table{
-  justify-content: center;
-  align-self: center;
-}
-
-table{
-  border-radius: 10px;
-  border: solid 2px black;
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  text-align: justify;
-  justify-content: center;
-  padding: 10px 10px;
-  flex-wrap: wrap;
-}
-
-td{
-  border: 2px solid black;
-  padding-right: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  justify-content: center;
-}
-a.table{
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #9837F0;
+.text3{
+  text-decoration: none;
+  position: absolute;
   text-align: center;
-  padding-bottom: .5em;
-  padding-left: .5em;
+  margin-left: 22em;
+  margin-top: -7em;
 }
-#aboutme{
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  justify-content: center;
-  text-align: left;
+.text3 h2:hover{
+  opacity: 100;
 }
-
-p{
-font-family: ff-nuvo-mono-web-pro, sans-serif;
-font-weight: 400;
-font-style: normal;
-color: black;
-flex-wrap: wrap;
-text-align: center;
-}
-#work{
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-}
-
-h2{
-  font-size:50px;
-  font-family: headline-gothic-atf-rough-n2, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
+.text4{
+  text-decoration: none;
+  position: absolute;
   text-align: center;
+  margin-left: 27em;
+  margin-top: -7em;
 }
-
-h4{
-  font-size:10px;
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-}
-#footer{
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: bold;
-  color: #9837F0;
-  text-align: center;
-}
-
-#contact{
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-}
-form{
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  width: 150px;
-  }
-#form{
-  justify-content: center;
-}
-
-label{
-    margin-bottom: .5em;
-    text-align: center;
-  }
-button{
-  color: black;
-  width: 5em;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  font-family: ff-nuvo-mono-web-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  margin-left: 1.25em;
-}
-button:hover{
-  background-color: #B99CF0;
+.text4 h2:hover{
+  opacity: 100;
 }

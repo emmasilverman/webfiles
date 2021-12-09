@@ -1,0 +1,92 @@
+h1{
+    font-family: futura-pt, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    color: #333333;
+    margin-top: .5em;
+    margin-left: 7em;
+}
+h2{
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+h3{
+    font-family: futura-pt, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-top: 11px;
+  }
+  button{
+    width: 250px;
+    height:60px;
+    background-color: #333333;
+    border: none;
+    margin-left: 45em;
+    margin-top: 2em;
+  }
+#dc{
+  margin-left: 22em;
+  text-decoration: underline;
+  margin-top: -2em;
+}
+.dc1 img{
+  margin-left: 11em;
+  width:600px;
+  height:500px;
+}
+.dc2 img{
+  margin-left: 13em;
+}
+.dc3 video{
+  margin-left: 13em;
+  width: 600px;
+  height: 500px;
+}
+.dc4 video{
+  margin-left: 22em;
+  margin-top: -6em;
+  width:700px;
+  height: 500px;
+}
+  #myBtn{
+    display: inline-block;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #333333; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 40px; /* Rounded corners */
+    font-size: 35px; /* Increase font size */
+    width: 75px;
+    height: 75px;
+    text-decoration: none;
+    text-transform: none;
+  }
+
+  #myBtn:hover{
+    background-color: #257F75; /* Add a dark-grey background on hover */
+    opacity: 40%;
+    color: #257F75;
+    display: inline-block;
+  }
+  a:active{
+    text-transform: none;
+    color: #257F75;
+    display: inline-block;
+  }
+  a{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    display: inline-block;
+  }

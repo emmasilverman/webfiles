@@ -54,14 +54,20 @@ h3{
     font-style: italic;
     font-size: 25px;
     font-weight: 400;
+    z-index: 100;
   }
 #nav{
     margin-bottom: -25em;
     height: 2em;
-    display: block;
+    display: inline-block;
     width: 300px;
-    margin-left: 2.5em;
+    margin-left: 2em;
+    z-index: 4;
   }
+.navlinks{
+  z-index: 99;
+  display: inline-block;
+}
 #nav a{
     text-decoration: none;
     color: #333333;
@@ -111,20 +117,21 @@ h3{
 }
 .gallery a{
   text-decoration: none;
+  display: inline-block;
 }
 .text1{
   text-decoration: none;
   margin-left: 27.2em;
   position: absolute;
   text-align: center;
-  margin-top: -7em;
+  margin-top: -15em;
 }
 .text1 h2:hover{
   opacity: 100;
 }
 .text2{
   margin-left: 31em;
-  margin-top: -7em;
+  margin-top: -15em;
   text-decoration: none;
   position: absolute;
   text-align: center;
@@ -137,7 +144,7 @@ h3{
   position: absolute;
   text-align: center;
   margin-left: 22em;
-  margin-top: -7em;
+  margin-top: -15em;
 }
 .text3 h2:hover{
   opacity: 100;
@@ -146,9 +153,49 @@ h3{
   text-decoration: none;
   position: absolute;
   text-align: center;
-  margin-left: 27em;
-  margin-top: -7em;
+  margin-left: 29em;
+  margin-top: -15em;
+}
+.text5{
+  margin-left:26em;
+  margin-top: -15em;
 }
 .text4 h2:hover{
   opacity: 100;
+}
+#myBtn{
+  display: inline-block;
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #333333; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 40px; /* Rounded corners */
+  font-size: 35px; /* Increase font size */
+  width: 75px;
+  height: 75px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+#myBtn:hover{
+  background-color: #257F75; /* Add a dark-grey background on hover */
+  opacity: 40%;
+  color: #257F75;
+  display: inline-block;
+}
+a:active{
+  text-transform: none;
+  color: #257F75;
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+  display: inline-block;
 }

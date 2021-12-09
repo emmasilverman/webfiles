@@ -23,8 +23,29 @@ h3{
     color: white;
     margin-top: 11px;
   }
-img{
-  width:700px;
+.moodboard{
+  width:650px;
   height: 400px;
-  margin-left: 25em;
+  margin-left: 26em;
+}
+.zs{
+  width:900px;
+  height: 650px;
+  margin-left: 18em;
+}
+h2{
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  text-decoration: underline;
+}
+.fun_text{
+  margin-left: 23em;
+  margin-bottom: 2em;
+}
+.zs_text{
+  margin-left:21em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }

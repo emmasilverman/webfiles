@@ -7,21 +7,25 @@ h1{
     margin-top: .5em;
     margin-left: 9.5em;
 }
-button{
+.backtohome a{
   width: 250px;
   height:60px;
   background-color: #333333;
   border: none;
-  margin-left: 45em;
-  margin-top: 2em;
 }
 h3{
     font-family: futura-pt, sans-serif;
     font-style: italic;
     font-size: 25px;
     font-weight: 400;
+    background-color: #333333;
+    text-decoration: none;
+    width: 250px;
+    height:60px;
     color: white;
-    margin-top: 11px;
+    text-transform: none;
+    margin-top: .5em;
+    margin-left: .5em;
   }
 
 p{

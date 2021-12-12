@@ -25,6 +25,11 @@ h3{
     font-weight: 400;
     color: white;
     margin-top: 11px;
+    width: 250px;
+    height:60px;
+    background-color: #333333;
+    border: none;
+    text-align: center;
   }
 
 .slideshow-container {
@@ -129,12 +134,12 @@ h3{
   height: 400px;
 }
 
-button{
+.backtohome{
     width: 250px;
     height:60px;
     background-color: #333333;
     border: none;
-    margin-left: 45em;
+    margin-left: 37em;
     margin-top: 2em;
   }
 

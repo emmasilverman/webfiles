@@ -7,13 +7,14 @@ h1{
     margin-top: .5em;
     margin-left: 8.7em;
 }
-button{
+.backtohome{
   width: 250px;
   height: 60px;
   background-color: #333333;
   border: none;
-  margin-left: 45em;
+  margin-left: 37em;
   margin-top: 2em;
+  text-align: center;
 }
 h3{
     font-family: futura-pt, sans-serif;

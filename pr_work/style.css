@@ -69,7 +69,7 @@ br{
   margin-top: -10em;
   margin-left: 3em;
 }
-button{
+.backtohome{
   width: 250px;
   height:60px;
   background-color: #333333;
@@ -82,9 +82,14 @@ h3{
     font-style: italic;
     font-size: 25px;
     font-weight: 400;
-    color: white;
     margin-top: 11px;
+    background-color: #333333;
+    width: 250px;
+    height:60px;
+    margin-left: 24em;
+    text-align: center;
   }
+
 .gallery{
       display: grid;
       grid-template-columns: repeat(3, 400px);
@@ -242,39 +247,6 @@ h3{
   margin-left: 35em;
   margin-top: 5em;
 }
-/* .gallery{
-  display: grid;
-  grid-template-rows: 2;
-  grid-template-columns: 4;
-  /* same size so they are squares */
-  /* grid-gap: 50px;
-}
-.image1 img{
-  width: 500px;
-  height: 600px;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-}
-.image2 figure{
-  width: 500px;
-  height: 600px;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-.image3 img{
-  width: 500px;
-  height: 500px;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-} */
-/* span {
-  content: "\2191";
-  color: black;
-} */
 #myBtn{
   display: inline-block;
   position: fixed;

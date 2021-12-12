@@ -104,6 +104,7 @@ h2{
   font-size: 35px;
   width: 75px;
   height: 75px;
+  text-align: center;
   text-decoration: none;
   text-transform: none;
 }
@@ -114,7 +115,7 @@ h2{
   color: #257F75;
   display: inline-block;
 }
-a:active{
+/* a:active{
   text-transform: none;
   color: #257F75;
   display: inline-block;
@@ -124,4 +125,4 @@ a{
   text-transform: none;
   color: white;
   display: inline-block;
-}
+} */

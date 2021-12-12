@@ -261,6 +261,7 @@ h3{
   font-size: 35px;
   width: 75px;
   height: 75px;
+  text-align: center;
   text-decoration: none;
   text-transform: none;
 }
@@ -270,7 +271,7 @@ h3{
   opacity: 40%;
   color: #257F75;
 }
-a:active{
+/* a:active{
   text-transform: none;
   color: #257F75;
 }
@@ -278,4 +279,4 @@ a{
   text-decoration: none;
   text-transform: none;
   color: white;
-}
+} */

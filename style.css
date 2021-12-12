@@ -218,6 +218,7 @@ margin-top: 2.5em;
   font-size: 35px;
   width: 75px;
   height: 75px;
+  text-align: center;
   text-decoration: none;
   text-transform: none;
 }
@@ -228,7 +229,7 @@ margin-top: 2.5em;
   color: #257F75;
   display: inline-block;
 }
-a:active{
+/* a:active{
   text-transform: none;
   color: #257F75;
   display: inline-block;
@@ -238,4 +239,4 @@ a{
   text-transform: none;
   color: white;
   display: inline-block;
-}
+} */

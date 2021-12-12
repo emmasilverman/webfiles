@@ -12,7 +12,6 @@ h1{
   height: 60px;
   background-color: #333333;
   border: none;
-  margin-left: 37em;
   margin-top: 2em;
   text-align: center;
 }
@@ -25,6 +24,7 @@ h3{
     margin-top: 11px;
     width: 250px;
     height: 60px;
+    margin-left: 24em;
     background-color: #333333;
   }
 
@@ -106,9 +106,10 @@ h2{
   cursor: pointer;
   border-radius: 40px;
   font-size: 35px;
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   text-align: center;
+  justify-content: center;
   text-decoration: none;
   text-transform: none;
   margin-top: 1em;
@@ -121,6 +122,10 @@ h2{
   display: inline-block;
   margin-top: 1em;
 }
+#myBtn span{
+  margin-bottom: -3em;
+}
+
 /* a:active{
   text-transform: none;
   color: #257F75;

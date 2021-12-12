@@ -29,8 +29,9 @@ h3{
     background-color: #333333;
     border: none;
     text-align: center;
+    justify-content: center;
     border: none;
-    margin-left: 37em;
+    margin-left: 24em;
     margin-top: 2em;
     text-transform: none;
     text-decoration: none;
@@ -52,6 +53,7 @@ h3{
   width: 450px;
   height: 350px;
   margin-top: -3em;
+  margin-left: 30em;
 }
 
 .prev, .next {
@@ -136,6 +138,8 @@ h3{
 .jfilm{
   width: 300px;
   height: 400px;
+  margin-top: -3em;
+  justify-content: center;
 }
 
 .backtohome{
@@ -143,8 +147,8 @@ h3{
     height:60px;
     background-color: #333333;
     border: none;
-    margin-left: 37em;
     margin-top: 2em;
+    margin-right: 10em;
   }
 
 .gallery{
@@ -340,8 +344,8 @@ h3{
     cursor: pointer;
     border-radius: 40px;
     font-size: 35px;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     text-decoration: none;
     text-transform: none;

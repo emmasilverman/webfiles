@@ -76,6 +76,8 @@ br{
   border: none;
   margin-left: 45em;
   margin-top: 2em;
+  text-transform: none;
+  text-decoration: none;
 }
 h3{
     font-family: futura-pt, sans-serif;
@@ -88,6 +90,9 @@ h3{
     height:60px;
     margin-left: 24em;
     text-align: center;
+    color: white;
+    text-transform: none;
+    text-decoration: none;
   }
 
 .gallery{

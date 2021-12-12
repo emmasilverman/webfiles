@@ -24,12 +24,16 @@ h3{
     font-size: 25px;
     font-weight: 400;
     color: white;
-    margin-top: 11px;
     width: 250px;
     height:60px;
     background-color: #333333;
     border: none;
     text-align: center;
+    border: none;
+    margin-left: 37em;
+    margin-top: 2em;
+    text-transform: none;
+    text-decoration: none;
   }
 
 .slideshow-container {

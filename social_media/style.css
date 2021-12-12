@@ -111,7 +111,7 @@ h2{
   text-align: center;
   text-decoration: none;
   text-transform: none;
-  margin-top: .5em;
+  margin-top: 1em;
 }
 
 #myBtn:hover{
@@ -119,7 +119,7 @@ h2{
   opacity: 40%;
   color: white;
   display: inline-block;
-  margin-top: .5em;
+  margin-top: 1em;
 }
 /* a:active{
   text-transform: none;

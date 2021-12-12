@@ -226,7 +226,7 @@ margin-top: 2.5em;
 #myBtn:hover{
   background-color: #257F75;
   opacity: 40%;
-  color: #257F75;
+  color: white;
   display: inline-block;
 }
 /* a:active{

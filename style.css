@@ -221,6 +221,7 @@ margin-top: 2.5em;
   text-align: center;
   text-decoration: none;
   text-transform: none;
+  margin-top: .5em;
 }
 
 #myBtn:hover{
@@ -228,6 +229,7 @@ margin-top: 2.5em;
   opacity: 40%;
   color: white;
   display: inline-block;
+  margin-top: .5em;
 }
 /* a:active{
   text-transform: none;
